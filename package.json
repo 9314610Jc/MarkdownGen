@@ -1,0 +1,22 @@
+{
+  "name": "markdowngen",
+  "version": "1.0.0",
+  "description": "to create a markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9314610Jc/MarkdownGen.git"
+  },
+  "author": "Joshua Coleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9314610Jc/MarkdownGen/issues"
+  },
+  "homepage": "https://github.com/9314610Jc/MarkdownGen#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}

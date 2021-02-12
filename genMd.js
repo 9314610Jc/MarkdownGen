@@ -113,27 +113,29 @@ function generateMarkdown(data) {
   ## Description
  ${data.description}
   ## Table of contents
-  1. Installation
-  3. Usage
-  4. Contributing
-  5. Test
-  6. Questions
+  1. [Installation](#Installation)
+  3. [Usage](#Usage)
+  4. [Contributing](#Contributing)
+  5. [Test](#Test)
+  6. [Questions](#Questions)
 
-  ## Installation
+  ## Installation <a name = 'Installation'> </a>
   ${data.installDetail}
 
-  ## Usage
+  ## Usage  <a name = 'Usage'></a>
   ${data.usage}
 
-  ## Contributing
+  ## Contributing <a name = 'Contributing'> </a>
   ${data.contributingGuide}
 
-  ## Test 
+  ## Test <a name = 'Test'></a>
   ${data.testIns}
 
-  ## Questions
-  Feel free to contact me on github: ${data.github}
-  or by email ${data.email}
+  ## Questions <a name= 'Questions'></a>
+  Feel free to contact me on github: 
+  [Github](${data.github})
+  or by email 
+  <${data.email}>
 
   
 
